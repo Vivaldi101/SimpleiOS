@@ -1,0 +1,9 @@
+{
+  "clangd": {
+      "cmd": ["/usr/bin/clangd",
+          "--background-index",
+          "--header-insertion=never",
+          "--completion-style=detailed",
+          "--clang-tidy" ]
+  }
+}
