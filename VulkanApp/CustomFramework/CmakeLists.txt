@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.10)
 
 # Create the shared library (DLL)
-add_library(Engine SHARED engine.m engine.h)
+add_library(Engine SHARED Engine.m Engine.h)
 
 set(ENGINE_BUNDLE_IDENTIFIER "com.test.vulkanengine")
 set_target_properties(Engine PROPERTIES
@@ -14,7 +14,7 @@ set_target_properties(Engine PROPERTIES
     VERSION 16.4.0
     # "compatibility version" in semantic format in Mach-O binary file
     SOVERSION 1.0.0
-    PUBLIC_HEADER engine.h
+    PUBLIC_HEADER Engine.h
     XCODE_ATTRIBUTE_CODE_SIGN_IDENTITY "${MY_CODE_SIGN_IDENTITY}"
     XCODE_ATTRIBUTE_CODE_SIGN_STYLE "Automatic"
     XCODE_ATTRIBUTE_PRODUCT_BUNDLE_IDENTIFIER "${ENGINE_BUNDLE_IDENTIFIER}"
