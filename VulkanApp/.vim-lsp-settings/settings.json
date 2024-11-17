@@ -1,0 +1,10 @@
+{
+  "clangd": {
+      "cmd": ["/usr/bin/clangd",
+          "--background-index",
+          "--header-insertion=never",
+          "--completion-style=detailed",
+          "--clang-tidy" ],
+	"project": "/Users/joni/work/VulkanApp"
+  }
+}

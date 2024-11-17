@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/joni/work/VulkanApp/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=c++17 -g3 -fsanitize=address -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -o CMakeFiles/vulkan_app.dir/main.mm.o -c /Users/joni/work/VulkanApp/main.mm",
+  "file": "/Users/joni/work/VulkanApp/main.mm",
+  "output": "CMakeFiles/vulkan_app.dir/main.mm.o"
+}
+]
